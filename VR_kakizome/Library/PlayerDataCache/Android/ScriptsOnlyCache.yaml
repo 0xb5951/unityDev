@@ -2,6 +2,7 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - OVRTouchSample.TouchController
+    - VR_Input
     Oculus.VR.Editor.dll:
     - OVRConfig
     Oculus.VR.dll:
@@ -51,6 +52,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 109
       Script: {instanceID: 0}
+    - Class: 111
+      Script: {instanceID: 0}
     - Class: 114
       Script: {instanceID: 9876}
     - Class: 114
@@ -61,6 +64,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 11336}
     - Class: 114
       Script: {instanceID: 11926}
+    - Class: 114
+      Script: {instanceID: 25394}
+    - Class: 114
+      Script: {instanceID: 25554}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 137
@@ -1630,6 +1637,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 9077227df75ec73065f2b25cf7ef6df6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: VR_Input
   platform: 13
   scenePathNames:
   - Assets/Oculus/SampleFramework/Usage/CustomControllers.unity

@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Fri Jan 03 22:51:45 JST 2020
+#Sat Jan 04 00:40:38 JST 2020
 2.path=bin/Data/Managed/UnityEngine.SubstanceModule.dll
 14.set=ASSET
 107.baseType=DIRECTORY
