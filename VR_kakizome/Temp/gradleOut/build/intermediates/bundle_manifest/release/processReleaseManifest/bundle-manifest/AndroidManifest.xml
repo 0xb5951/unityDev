@@ -69,7 +69,7 @@
             android:value="vr_only" />
         <meta-data
             android:name="unity.build-id"
-            android:value="6a36006b-bfde-449f-b199-ac5934907a13" />
+            android:value="17a91ce5-e72d-411a-9805-e1f27dad4af3" />
         <meta-data
             android:name="unity.splash-mode"
             android:value="0" />
