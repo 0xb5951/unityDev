@@ -6,12 +6,21 @@ public class lineDraw : MonoBehaviour
 {
     //SerializeFieldをつけるとInspectorウィンドウからゲームオブジェクトやPrefabを指定できる。
     [SerializeField] GameObject LineObjectPrefab;
+    [SerializeField] Transform HandAnchor;//positionを取得するコントローラーの位置情報
 
      //現在描画中のLineObject;
     private GameObject CurrentLineObject = null;
      
      // コントローラーを設定
     private OVRInput.Controller controller;
+
+    private Transform Pointer
+    {
+        get
+        {
+            return HandAnchor;
+        }
+    }
 
     void Start()
     {
@@ -21,6 +30,8 @@ public class lineDraw : MonoBehaviour
 
     void Update()
     {
+	var pointer = Pointer;
+
 	//人差し指のトリガーが引かれている間
 	if (OVRInput.Get(OVRInput.RawButton.RIndexTrigger, controller)) {
       	if(CurrentLineObject == null){
@@ -37,7 +48,7 @@ public class lineDraw : MonoBehaviour
             render.positionCount = NextPositionIndex + 1;
 
             //LineRendererのPositionsに現在のコントローラーの位置情報を追加
-            render.SetPosition(NextPositionIndex, transform.position);	
+            render.SetPosition(NextPositionIndex, pointer.position);	
 	}
       else if (OVRInput.GetUp(OVRInput.RawButton.RIndexTrigger))//人差し指のトリガーを離したとき
         {

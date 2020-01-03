@@ -35,8 +35,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
-    - Class: 74
-      Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
     - Class: 89
@@ -50,8 +48,6 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 109
-      Script: {instanceID: 0}
-    - Class: 111
       Script: {instanceID: 0}
     - Class: 114
       Script: {instanceID: 9876}
@@ -1646,7 +1642,7 @@ ScriptsOnlyBuild:
     className: VR_Input
   - hash:
       serializedVersion: 2
-      Hash: a96d27f5de0f6a7273339e48aa1bf33c
+      Hash: 3fd2d19d86daffdc43ed486d8f07f4d4
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: lineDraw
