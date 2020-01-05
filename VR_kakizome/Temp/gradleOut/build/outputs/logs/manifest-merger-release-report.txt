@@ -163,9 +163,9 @@ ADDED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/An
 	android:name
 		ADDED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:31:17-80
 uses-feature#oculus.software.handtracking
-ADDED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:32:3-87
+ADDED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:32:3-88
 	android:required
-		ADDED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:32:61-84
+		ADDED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:32:61-85
 	android:name
 		ADDED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:32:17-60
 uses-permission#oculus.permission.handtracking
