@@ -1,24 +1,24 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:2:1-32:12
-INJECTED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:2:1-32:12
-INJECTED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:2:1-32:12
-INJECTED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:2:1-32:12
+ADDED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:2:1-34:12
 MERGED from [:OVRPlugin:] /home/wik/.gradle/caches/transforms-2/files-2.1/f9a3074dd41c6c0bc3f4045d22a9afbc/AndroidManifest.xml:2:1-4:12
-INJECTED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:2:1-32:12
-INJECTED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:2:1-32:12
-INJECTED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:2:1-34:12
 	package
 		ADDED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:2:70-110
 		INJECTED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml
 		INJECTED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml
-		ADDED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:2:1-32:12
+		ADDED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:2:1-34:12
 		INJECTED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml
-		ADDED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:2:1-32:12
+		ADDED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:2:1-34:12
 		INJECTED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:2:11-69
@@ -162,6 +162,16 @@ ADDED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/An
 		ADDED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:31:81-105
 	android:name
 		ADDED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:31:17-80
+uses-feature#oculus.software.handtracking
+ADDED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:32:3-87
+	android:required
+		ADDED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:32:61-84
+	android:name
+		ADDED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:32:17-60
+uses-permission#oculus.permission.handtracking
+ADDED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:33:3-68
+	android:name
+		ADDED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:33:20-65
 uses-sdk
 INJECTED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml

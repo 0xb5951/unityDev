@@ -35,6 +35,11 @@
     <uses-feature
         android:name="android.hardware.touchscreen.multitouch.distinct"
         android:required="false" />
+    <uses-feature
+        android:name="oculus.software.handtracking"
+        android:required="true" />
+
+    <uses-permission android:name="oculus.permission.handtracking" />
     <!-- Request the headset DoF mode -->
     <!-- Request the headset handtracking mode -->
     <application
@@ -69,7 +74,7 @@
             android:value="vr_only" />
         <meta-data
             android:name="unity.build-id"
-            android:value="277b146f-3f3f-4517-9f67-7664c2c4c009" />
+            android:value="1c830300-312c-49fb-8c93-8587bb1fcf83" />
         <meta-data
             android:name="unity.splash-mode"
             android:value="0" />

@@ -13,7 +13,7 @@
     </activity>
     <meta-data android:name="unityplayer.SkipPermissionsDialog" android:value="false" />
     <meta-data android:name="com.samsung.android.vr.application.mode" android:value="vr_only" />
-    <meta-data android:name="unity.build-id" android:value="277b146f-3f3f-4517-9f67-7664c2c4c009" />
+    <meta-data android:name="unity.build-id" android:value="1c830300-312c-49fb-8c93-8587bb1fcf83" />
     <meta-data android:name="unity.splash-mode" android:value="0" />
     <meta-data android:name="unity.splash-enable" android:value="False" />
     <meta-data android:name="notch.config" android:value="portrait|landscape" />
@@ -29,4 +29,6 @@
   <uses-feature android:name="android.hardware.touchscreen" android:required="false" />
   <uses-feature android:name="android.hardware.touchscreen.multitouch" android:required="false" />
   <uses-feature android:name="android.hardware.touchscreen.multitouch.distinct" android:required="false" />
+  <uses-feature android:name="oculus.software.handtracking" android:required="true" />
+  <uses-permission android:name="oculus.permission.handtracking" />
 </manifest>

@@ -1,4 +1,4 @@
-#Mon Jan 06 01:56:19 JST 2020
+#Mon Jan 06 03:39:24 JST 2020
 base.0=/home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/build/intermediates/transforms/dexMerger/release/0
 path.0=classes.dex
 renamed.0=classes.dex
