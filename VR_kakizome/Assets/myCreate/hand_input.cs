@@ -70,8 +70,15 @@ public class hand_input : MonoBehaviour
             }
         }		
 
-        // 人差し指のピンチングの強さに応じて cube の scale を変更する
-        var strength = ovrHand.GetFingerPinchStrength(OVRHand.HandFinger.Index);
-        var scale = 0.075f * (1 - strength);
+    if (_pinchingFingerNumber > 2) {            
+		//リストで保持しているインスタンスを削除
+		for (int i = 0; i < list_toggle_.Count; i++)
+		{
+		    Destroy(list_toggle_[i]);
+		}
+
+		//リスト自体をキレイにする
+		list_toggle_.Clear();
+        }
     }
 }

@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Mon Jan 06 05:23:00 JST 2020
+#Mon Jan 06 06:11:45 JST 2020
 2.path=lib/armeabi-v7a/libswappyVk.so
 14.set=ASSET
 107.baseType=DIRECTORY
