@@ -50,19 +50,19 @@ ScriptsOnlyBuild:
     - Class: 109
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 9876}
+      Script: {instanceID: 9880}
     - Class: 114
-      Script: {instanceID: 10022}
+      Script: {instanceID: 10026}
     - Class: 114
-      Script: {instanceID: 10486}
+      Script: {instanceID: 10492}
     - Class: 114
-      Script: {instanceID: 10780}
+      Script: {instanceID: 10788}
     - Class: 114
-      Script: {instanceID: 11926}
+      Script: {instanceID: 11824}
     - Class: 114
-      Script: {instanceID: 25394}
+      Script: {instanceID: 11940}
     - Class: 114
-      Script: {instanceID: 34356}
+      Script: {instanceID: 12274}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -1300,6 +1300,12 @@ ScriptsOnlyBuild:
     className: TextMeshProUGUI
   - hash:
       serializedVersion: 2
+      Hash: 3fd2d19d86daffdc43ed486d8f07f4d4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: lineDraw
+  - hash:
+      serializedVersion: 2
       Hash: bbf6c8bbcb3097b51034aeb2a5b7693a
     assemblyName: Assembly-CSharp.dll
     namespaceName: Oculus.Platform.Samples.VrHoops
@@ -1480,6 +1486,12 @@ ScriptsOnlyBuild:
     className: WindmillBladesController
   - hash:
       serializedVersion: 2
+      Hash: 9077227df75ec73065f2b25cf7ef6df6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: VR_Input
+  - hash:
+      serializedVersion: 2
       Hash: c1313d723d19b50c00b55c8ce726b990
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -1634,18 +1646,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 9077227df75ec73065f2b25cf7ef6df6
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: VR_Input
-  - hash:
-      serializedVersion: 2
-      Hash: 3fd2d19d86daffdc43ed486d8f07f4d4
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: lineDraw
   platform: 13
   scenePathNames:
   - Assets/Oculus/SampleFramework/Usage/CustomControllers.unity

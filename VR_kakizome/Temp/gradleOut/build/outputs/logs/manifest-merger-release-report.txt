@@ -1,0 +1,181 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:2:1-32:12
+MERGED from [:OVRPlugin:] /home/wik/.gradle/caches/transforms-2/files-2.1/f9a3074dd41c6c0bc3f4045d22a9afbc/AndroidManifest.xml:2:1-4:12
+INJECTED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:2:1-32:12
+	package
+		ADDED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:2:70-110
+		INJECTED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml
+		INJECTED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml
+		ADDED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:2:1-32:12
+		INJECTED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml
+		ADDED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:2:1-32:12
+		INJECTED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:2:11-69
+	android:installLocation
+		ADDED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:2:111-141
+uses-feature#android.hardware.vr.headtracking
+ADDED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:3:3-111
+	android:version
+		ADDED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:3:65-84
+	android:required
+		ADDED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:3:85-108
+	android:name
+		ADDED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:3:17-64
+application
+ADDED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:6:3-20:17
+	android:label
+		ADDED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:6:16-48
+	android:icon
+		ADDED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:6:49-80
+	android:allowBackup
+		ADDED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:6:81-108
+	android:networkSecurityConfig
+		ADDED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:6:109-164
+activity#com.unity3d.player.UnityPlayerActivity
+ADDED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:7:5-13:16
+	android:screenOrientation
+		ADDED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:7:168-205
+	android:excludeFromRecents
+		ADDED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:7:134-167
+	android:launchMode
+		ADDED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:7:206-237
+	android:hardwareAccelerated
+		ADDED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:7:340-375
+	android:configChanges
+		ADDED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:7:238-339
+	android:theme
+		ADDED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:7:15-79
+	android:name
+		ADDED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:7:80-133
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.INFO
+ADDED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:8:7-11:23
+action#android.intent.action.MAIN
+ADDED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:9:9-61
+	android:name
+		ADDED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:9:17-58
+category#android.intent.category.INFO
+ADDED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:10:9-65
+	android:name
+		ADDED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:10:19-62
+meta-data#android.notch_support
+ADDED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:12:7-78
+	android:value
+		ADDED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:12:55-75
+	android:name
+		ADDED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:12:18-54
+meta-data#unityplayer.SkipPermissionsDialog
+ADDED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:14:5-89
+	android:value
+		ADDED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:14:65-86
+	android:name
+		ADDED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:14:16-64
+meta-data#com.samsung.android.vr.application.mode
+ADDED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:15:5-97
+	android:value
+		ADDED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:15:71-94
+	android:name
+		ADDED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:15:16-70
+meta-data#unity.build-id
+ADDED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:16:5-101
+	android:value
+		ADDED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:16:46-98
+	android:name
+		ADDED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:16:16-45
+meta-data#unity.splash-mode
+ADDED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:17:5-69
+	android:value
+		ADDED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:17:49-66
+	android:name
+		ADDED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:17:16-48
+meta-data#unity.splash-enable
+ADDED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:18:5-75
+	android:value
+		ADDED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:18:51-72
+	android:name
+		ADDED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:18:16-50
+meta-data#notch.config
+ADDED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:19:5-81
+	android:value
+		ADDED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:19:44-78
+	android:name
+		ADDED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:19:16-43
+uses-feature#0x00030001
+ADDED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:21:3-52
+	android:glEsVersion
+		ADDED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:21:17-49
+supports-gl-texture#GL_KHR_texture_compression_astc_ldr
+ADDED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:22:3-77
+	android:name
+		ADDED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:22:24-74
+uses-permission#android.permission.INTERNET
+ADDED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:23:3-65
+	android:name
+		ADDED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:23:20-62
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:24:3-69
+	android:name
+		ADDED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:24:20-66
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:25:3-78
+	android:name
+		ADDED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:25:20-75
+uses-permission#android.permission.BROADCAST_STICKY
+ADDED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:26:3-73
+	android:name
+		ADDED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:26:20-70
+uses-permission#android.permission.BLUETOOTH
+ADDED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:27:3-66
+	android:name
+		ADDED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:27:20-63
+uses-feature#android.hardware.microphone
+ADDED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:28:3-87
+	android:required
+		ADDED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:28:60-84
+	android:name
+		ADDED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:28:17-59
+uses-feature#android.hardware.touchscreen
+ADDED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:29:3-88
+	android:required
+		ADDED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:29:61-85
+	android:name
+		ADDED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:29:17-60
+uses-feature#android.hardware.touchscreen.multitouch
+ADDED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:30:3-99
+	android:required
+		ADDED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:30:72-96
+	android:name
+		ADDED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:30:17-71
+uses-feature#android.hardware.touchscreen.multitouch.distinct
+ADDED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:31:3-108
+	android:required
+		ADDED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:31:81-105
+	android:name
+		ADDED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml:31:17-80
+uses-sdk
+INJECTED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml
+INJECTED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml
+MERGED from [:OVRPlugin:] /home/wik/.gradle/caches/transforms-2/files-2.1/f9a3074dd41c6c0bc3f4045d22a9afbc/AndroidManifest.xml:3:3-45
+MERGED from [:OVRPlugin:] /home/wik/.gradle/caches/transforms-2/files-2.1/f9a3074dd41c6c0bc3f4045d22a9afbc/AndroidManifest.xml:3:3-45
+INJECTED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml
+INJECTED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml
+		ADDED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml
+		INJECTED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml
+		ADDED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml
+		MERGED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml
+		INJECTED from /home/wik/www/private/unityDev/VR_kakizome/Temp/gradleOut/src/main/AndroidManifest.xml

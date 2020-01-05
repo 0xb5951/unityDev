@@ -8,6 +8,9 @@ public class lineDraw : MonoBehaviour
     [SerializeField] GameObject LineObjectPrefab;
     [SerializeField] Transform HandAnchor;//positionを取得するコントローラーの位置情報
 
+      //生成したObjectを持っておくためのList
+     List<GameObject> list_toggle_ = new List<GameObject>();
+
      //現在描画中のLineObject;
     private GameObject CurrentLineObject = null;
      
@@ -37,6 +40,8 @@ public class lineDraw : MonoBehaviour
       	if(CurrentLineObject == null){
                 //PrefabからLineObjectを生成
                 CurrentLineObject = Instantiate(LineObjectPrefab, new Vector3(0, 0, 0), Quaternion.identity);
+		    //生成したインスタンスをリストで持っておく
+        	   list_toggle_.Add(CurrentLineObject);
             	}
             	//ゲームオブジェクトからLineRendererコンポーネントを取得
             LineRenderer render = CurrentLineObject.GetComponent<LineRenderer>();
@@ -57,6 +62,17 @@ public class lineDraw : MonoBehaviour
                 //現在描画中の線があったらnullにして次の線を描けるようにする。
                 CurrentLineObject = null;
             }
+        }
+
+    if (OVRInput.GetDown(OVRInput.Button.One, controller)) {            
+		//リストで保持しているインスタンスを削除
+		for (int i = 0; i < list_toggle_.Count; i++)
+		{
+		    Destroy(list_toggle_[i]);
+		}
+
+		//リスト自体をキレイにする
+		list_toggle_.Clear();
         }
     }
 }
