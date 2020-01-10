@@ -42,7 +42,7 @@ public class hand_input : MonoBehaviour
 	// 人差し指の先端位置を取得
 	Vector3 indexTipPos = skeleton.Bones[(int) OVRSkeleton.BoneId.Hand_IndexTip].Transform.position;
 
-	if (_pinchingFingerNumber == 1) {
+	if (_isIndexPinching && _isMiddlePinching) {
       	if(CurrentLineObject == null){
                 //PrefabからLineObjectを生成
                 CurrentLineObject = Instantiate(LineObjectPrefab, new Vector3(0, 0, 0), Quaternion.identity);
